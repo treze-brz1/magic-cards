@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Magic Cards</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>
+                        01
+                    </h2>
+                    <h3>
+                        Step one:
+                    </h3>
+                    <p>
+                        Take your cell phone.
+                    </p>
+                    <a href="https://www.instagram.com/treze.brz/">More information</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h2>
+                        02
+                    </h2>
+                    <h3>
+                        Step Two:
+                    </h3>
+                    <p>
+                        Enter your Instagram.
+                    </p>
+                    <a href="https://www.instagram.com/treze.brz/">More information</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="content">
+                    <h2>
+                        03
+                    </h2>
+                    <h3>
+                        Step Three:
+                    </h3>
+                    <p>
+                        Follow @treze.brz
+                    </p>
+                    <a href="https://www.instagram.com/treze.brz/">More information</a>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+
+        <script>
+            VanillaTilt.init(document.querySelector(".card"), {
+                max: 25,
+                speed: 400,
+                glare: true,
+                reverse: true,
+                "max-glare": 0.5
+            });
+            
+            //It also supports NodeList
+            VanillaTilt.init(document.querySelectorAll(".card"));
+        </script>
+
+    </body>
+</html>
